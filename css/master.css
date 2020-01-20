@@ -3,15 +3,33 @@
     border: 0;
     box-sizing: border-box;
 }
-header{
+.titolo{
     background-color: yellow;
-    height: 40vh;
-    width: 100vw;
-    margin: 10px
+    height: 20vh;
+    width: 90vw;
+    margin-top: 8%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-section{
+.box1 {
     background-color: pink;
+    height: 20vh;
+    width: 20vw;
+    float: left;
+    margin-left: 5%;
+}
+.box2 {
+    background-color: purple;
     height: 40vh;
     width: 40vw;
-    margin: 10px;
+    float: left;
+    margin-left: 5%;
+}
+.box3 {
+    background-color: pink;
+    height: 20vh;
+    width: 20vw;
+    float: left;
+    margin-left: 5%;
 }
