@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: yellow;
+    height: 40vh;
+    width: 100vw;
+    margin: 10px
+}
+section{
+    background-color: pink;
+    height: 40vh;
+    width: 40vw;
+    margin: 10px;
+}
