@@ -3,68 +3,42 @@
     border: 0;
     box-sizing: border-box;
 }
-.titolo{
-    margin: 0;
-    border-top: 10px solid white;
-    border-right: 10px solid white;
-    border-left:10px solid white;
-    display: inline-block;
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.template{
+    width: 80vw;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
     background-color: yellow;
-    height: 20vh;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin-bottom: 10px;
 }
 .corpo{
-    border-right: 10px solid white;
-    border-left:10px solid white;
-    margin: 0;
-    display: inline-block;
+    height: 500px;
     background-color: white;
-    height: 65vh;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    overflow: visible;
 }
-.box1{
-    display: inline-block;
-    background-color: pink;
+section{
+    width: 25%;
+    height: 100%;
+    background-color: mediumorchid;
     float: left;
-    height: 40vh;
-    width:33.33%;
-    position: relative;
-    border-right: 5px solid white;
 }
-.box2 {
-    display: inline-block;
+main {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+}
+main .content{
+    height: 100%;
     background-color: purple;
-    position: relative;
-    float: left;
-    height: 65vh;
-    width:33.33%;
 }
-.box3 {
-    display: inline-block;
-    background-color: pink;
-    float: left;
-    height: 40vh;
-    width:33.33%;
-    border-left: 5px solid white;
-
-}
-
-
-.finale{
-    border-right: 10px solid white;
-    border-left:10px solid white;
-    display: inline-block;
-    background-color: lightblue;
-    height: 10vh;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+footer{
+    height: 100px;
+    margin-top: 10px;
+    background-color: powderblue;
 }
